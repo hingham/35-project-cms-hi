@@ -2,6 +2,12 @@
 
 ### Author: Student/Group Name
 
+### Description: 
+* React-Redux App
+* Shows all records in a API based on user selected route
+* Uses react form to dynamically create a form using api shemas
+* Allows users to read, create, update and delete records from database
+
 ### Links and Resources
 * [repo](https://github.com/hingham/35-project-cms-hi)
 * [travis](http://xyz.com)
@@ -29,16 +35,9 @@
 #### Running the app
 * `npm start`
 * Endpoint: `/`
-  * Returns data about schemas
-* Endpoint: `/api/v1/categories`
-  * returns data and forms for categories
-* Endpoint: `/api/v1/products`
-  * returns data and forms for products
-* Endpoint: `/api/v1/teams`
-  * returns data and forms for teams
-* Endpoint: `/api/v1/players`
-  * returns data and forms for players
-
+  * Returns form that renders saved records corresponding to selected route
+  * Shows form that allows user to add or update selected record from database
+  * Form rendered based on schema stored in API
 
 #### Tests
 * `npm run tests`
