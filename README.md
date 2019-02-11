@@ -5,7 +5,7 @@
 ### Links and Resources
 * [repo](hingham/35-project-cms-hi)
 * [travis](http://xyz.com)
-* [front-end]()
+* [front-end](http://cms-api-lab-hi.s3-website-us-west-2.amazonaws.com/)
 
 ### Modules
 #### `actions.js` 
