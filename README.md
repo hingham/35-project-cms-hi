@@ -3,7 +3,7 @@
 ### Author: Student/Group Name
 
 ### Links and Resources
-* [repo](hingham/35-project-cms-hi)
+* [repo](https://github.com/hingham/35-project-cms-hi)
 * [travis](http://xyz.com)
 * [front-end](http://cms-api-lab-hi.s3-website-us-west-2.amazonaws.com/)
 
