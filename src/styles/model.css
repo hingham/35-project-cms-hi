@@ -1,0 +1,70 @@
+.models{
+    display: flex;
+    color: rgb(2,2,2);
+    text-decoration: none;    
+}
+
+ul.models {
+    background-color: rgba(109, 88, 104, 0.9);
+    margin-bottom: 1em;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+button.add + ul.records{
+    margin: 1em;
+}
+
+.models > li{
+    margin: .25em;
+    padding: .25em;
+    font-size: 1.5em;
+    width: 6em;
+    background-color: rgb(243, 249, 245);
+    text-align: center;
+}
+
+
+.models > li:hover{
+    background-color: rgb(135, 135, 135);
+}
+
+
+.records > li{
+    margin: .5em;
+    font-size: 1.2em;
+    margin: .25em;
+    padding: .25em;
+    width: 10em;
+    color: rgb(231, 230, 230);
+    font-weight: bold;
+    background-color: rgb(186, 6, 144);
+    text-align: center;
+}
+
+fieldset > div{
+    margin: 0em;
+}
+
+
+button{
+    font-size: 1em;
+    padding: .2em;
+    background-color: rgb(104, 52, 70);
+    color: white;
+}
+
+button.add {
+    font-size: 1.2em;
+    margin: .25em;
+    width: 7em;
+}
+
+
+fieldset#root{
+    margin-top: 3em;
+}
+
