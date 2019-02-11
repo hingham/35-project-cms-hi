@@ -1,0 +1,80 @@
+
+body{
+    background-color: rgb(211, 209, 197);
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#root * {
+    font-family: muli;
+}
+
+main{
+    background-color: #FFF;
+    width: 80%;
+}
+
+.centercol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.column{
+    flex-direction: column;
+}
+
+header {
+    font-size: 4em;
+    width: 80%;
+}
+
+header > div{
+    text-align: center;
+    font-family: muli;
+    background-color: white;
+    width: 100%;
+    border: 5px solid rgb(186, 6, 144);
+    font-size: 3em;
+    color: rgb(82, 5, 63);
+    text-shadow: 2px 2px rgb(186, 6, 144);
+    box-shadow: 5px 5px rgb(205, 71, 47);
+
+    margin: 1em 0 1em 0;
+}
+
+ul{
+    text-decoration: none;
+}
+
+.form-title{
+    color: rgb(205, 71, 47);
+    text-shadow: 2px 2px rgb(186, 6, 144);
+
+    font-size: 3em;
+    margin: 1em;
+}
+
+
+.flex-top{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+legend{
+    display:none;
+}

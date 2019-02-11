@@ -1,42 +1,47 @@
-![CF](http://i.imgur.com/7v5ASc8.png) LAB
-=================================================
-
-## Project Name
+## CMS - React-Redux API Front-End
 
 ### Author: Student/Group Name
 
 ### Links and Resources
-* [repo](http://xyz.com)
+* [repo](hingham/35-project-cms-hi)
 * [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [front-end]()
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+#### `actions.js` 
+#### `cms.js`
+#### `models.js`
+#### `record.js`
+#### `records.js`
+#### `reducers.js`
 
-###### `foo(thing) -> string`
-Usage Notes or examples
 
-###### `bar(array) -> array`
-Usage Notes or examples
+###### Usage Notes
+* Forms allow for crud opperation on a data base
+* schemas: players, teams, categories, and products
+* Update, Add, Delete, and Read records indata base
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* View package.json for all depencencies
+* `npm run build` to ready app for deployment
 
 #### Running the app
 * `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* Endpoint: `/`
+  * Returns data about schemas
+* Endpoint: `/api/v1/categories`
+  * returns data and forms for categories
+* Endpoint: `/api/v1/products`
+  * returns data and forms for products
+* Endpoint: `/api/v1/teams`
+  * returns data and forms for teams
+* Endpoint: `/api/v1/players`
+  * returns data and forms for players
+
 
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* `npm run tests`
 
 #### UML
-Link to an image of the UML for your application and response to events
+![image](./assets/uml.JPG)
